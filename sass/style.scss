@@ -122,3 +122,110 @@
         @import "layouts/grids";
         @import "objects/images";
         @import "objects/videos";
+
+// BORDERS
+    // SETTINGS
+        $border-width: 0.20rem;
+        $border-radius: 0.00rem;
+        $border-outline-weight: 1px;
+        $border-color: $color-grayscale-light-12;
+
+    // PARTIALS
+        @import "objects/borders";
+
+// BUTTONS
+    // SETTINGS
+        $button-text: $body-text;
+        $button-color: $link-color;
+        $button-border-radius: 0.25rem;
+        $button-margin-vertical: $margin-sm;
+        $button-margin-horizontal: $margin-md;
+        $button-padding-vertical: $padding-xs;
+        $button-padding-horizontal: $padding-md;
+        
+        // BUTTON-SOLID
+            $button-solid-color: $button-color;
+            $button-solid-text-color: $text-color-white;
+
+        // BUTTON-ALT
+            $button-alt-color: $color-grayscale-light-12;
+            $button-alt-text-color: $button-color;
+
+        // BUTTON-GHOST
+            $button-ghost-color: transparent;
+            $button-ghost-text-color: $button-color;
+
+        // BUTTON-MOBILE
+            $button-mobile-color: $button-solid-color;
+            $button-mobile-text-color: $button-solid-text-color;
+
+    // PARTIALS
+        @import "objects/buttons";
+
+// BACKGROUNDS
+    // SETTINGS
+        // BACKGROUND-1
+            $background-1-color: $color-scgolfpanel-green-0;
+            $background-1-text-color: $color-scgolfpanel-green-light-12;
+
+        // BACKGROUND-2
+            $background-2-color: $color-scgolfpanel-brown-0;
+            $background-2-text-color: $color-scgolfpanel-brown-light-12;
+
+        // BACKGROUND-3
+            $background-3-color: $color-scgolfpanel-beige-0;
+            $background-3-text-color: $color-scgolfpanel-beige-dark-6;
+
+        // BACKGROUND-4
+            $background-4-color: $color-scgolfpanel-gray-0;
+            $background-4-text-color: $color-scgolfpanel-gray-light-12;
+
+        // BACKGROUND-5
+            $background-5-color: $color-scgolfpanel-blue-0;
+            $background-5-text-color: $color-scgolfpanel-blue-light-12;
+
+        // BACKGROUND-6
+            $background-6-color: $color-grayscale-light-12;
+            $background-6-text-color: $text-color-dark;
+
+        // BACKGROUND-7
+            $background-7-color: $color-grayscale-dark-12;
+            $background-7-text-color: $color-grayscale-light-12;
+
+    // PARTIALS
+        @import "objects/backgrounds";
+
+// GRADIENTS
+    // SETTINGS
+        $gradient-1: linear-gradient(0deg, rgba($color-grayscale-dark-9, 0.90) 0.00%, rgba($color-grayscale-dark-9, 0.60) 50.00%, rgba($color-grayscale-dark-9, 0.50) 100.00%);
+        $gradient-2: linear-gradient(0deg, rgba($color-scgolfpanel-green-dark-10, 0.95) 0.00%, rgba($color-scgolfpanel-green-dark-2, 0.85) 50.00%, rgba($color-scgolfpanel-green-0, 0.60) 100.00%);
+        $gradient-3: linear-gradient(0deg, rgba($color-grayscale-dark-9, 0.95) 0.00%, rgba($color-grayscale-dark-9, 0.85) 50.00%, rgba($color-grayscale-dark-9, 0.50) 100.00%);
+        $gradient-4: linear-gradient(0deg, rgba($color-grayscale-dark-9, 0.95) 0.00%, rgba($color-grayscale-dark-9, 0.85) 50.00%, rgba($color-grayscale-dark-9, 0.50) 100.00%);
+        $gradient-5: linear-gradient(0deg, rgba($color-grayscale-dark-9, 0.95) 0.00%, rgba($color-grayscale-dark-9, 0.85) 50.00%, rgba($color-grayscale-dark-9, 0.50) 100.00%);
+        $gradient-6: linear-gradient(0deg, rgba($color-grayscale-dark-9, 0.95) 0.00%, rgba($color-grayscale-dark-9, 0.85) 50.00%, rgba($color-grayscale-dark-9, 0.50) 100.00%);
+        $gradient-7: linear-gradient(0deg, rgba($color-grayscale-dark-9, 0.95) 0.00%, rgba($color-grayscale-dark-9, 0.85) 50.00%, rgba($color-grayscale-dark-9, 0.50) 100.00%);
+
+    // PARTIALS
+        @import "objects/gradients";
+
+// TABLES
+    // SETTINGS
+        $table-header-background: $color-scgolfpanel-brown-0;
+        $table-subheader-background: $color-scgolfpanel-beige-0;
+        $table-row-odd-background: $color-grayscale-light-11;
+        $table-row-even-background: $color-grayscale-light-9;
+        $table-border: $table-header-background;
+
+    // PARTIALS
+        @import "objects/tables";
+
+// EXTERNAL
+    // BOOTSTRAP
+        // SETTINGS
+        // PARTIALS
+            @import "external/bootstrap";
+
+    // ELEMENTOR
+        // SETTINGS
+        // PARTIALS
+            @import "external/elementor";
