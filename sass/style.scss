@@ -10,3 +10,115 @@
  * License: GNU General Public License v3 or Later
  * License URI: http://www.gnu.org/license/gpl-3.0.html
 **/
+
+// THEME PATH
+    $theme-path: "/wp-content/themes/scgolfpanel";
+
+// COLORS
+    // SETTINGS
+        $color-scgolfpanel-green: #00672f;
+        $color-scgolfpanel-brown: #948056;
+        $color-scgolfpanel-beige: #ccc999;
+        $color-scgolfpanel-gray: #444544;
+        $color-scgolfpanel-blue: #0072bb;
+
+    // PARTIALS
+        @import "variables/colors";
+
+// UNITS
+    // SETTINGS
+        $base-unit: 1.00rem;
+
+    // PARTIALS
+        @import "variables/units";
+
+// MEDIA
+    // SETTINGS
+        $site-width-min: 90.00%;
+        $site-width-max: 100.00%;
+        $site-width-content: 1440px;
+
+    // PARTIALS
+        @import "variables/media";
+
+// WRAPPERS
+    // SETTINGS
+        $body-gutter: 1.00rem;
+
+    // PARTIALS
+        @import "layouts/wrappers";
+
+// LINKS
+    // SETTINGS
+        $link-color: $color-scgolfpanel-green-0;
+        $link-hover-color: $color-scgolfpanel-green-dark-3;
+        $link-hover-adjustment: 3.00;
+
+    // PARTIALS
+        @import "objects/links";
+
+// SHADOWS
+    // SETTINGS
+        $shadow-main: 0.00rem 0.00rem 0.50rem rgba($color-grayscale-dark-9, 0.10);
+        $shadow-text: 0.00rem 0.00rem 0.50rem rgba($color-grayscale-dark-9, 0.90);
+
+    // PARTIALS
+        @import "objects/shadows";
+
+// TEXT
+    // SETTINGS
+        // FONT STACKS
+            $font-sans: Roboto, Helvetica, Arial, sans-serif;
+            $font-serif: Merriweather, Georgia, serif;
+
+        // FONT SIZES
+            $font-size-base: 1.00rem;
+            $font-size-xs: 14px;
+            $font-size-sm: 14px;
+            $font-size-md: 14px;
+            $font-size-lg: 14px;
+            $font-size-xl: 16px;
+            $font-size-xxl: 16px;
+
+        // COLORS
+            $text-color-normal: $color-grayscale-dark-6;
+            $text-color-alt: $color-scgolfpanel-brown-0;
+            $text-color-white: $color-grayscale-light-12;
+            $text-color-light: $color-grayscale-light-9;
+            $text-color-dark: $color-grayscale-dark-9;
+            $text-color-black: $color-grayscale-dark-12;
+
+        // HEADINGS
+            $heading-text: $font-serif;
+            $heading-text-color: $text-color-dark;
+            $heading-text-size-h1: 3.00rem;
+            $heading-text-size-h2: 2.50rem;
+            $heading-text-size-h3: 2.00rem;
+            $heading-text-size-h4: 1.50rem;
+            $heading-text-size-h5: 1.25rem;
+            $heading-text-size-h6: 1.00rem;
+
+        // BODY
+            $body-text: $font-sans;
+            $body-text-size: $font-size-base;
+            $body-text-color: $text-color-normal;
+
+        // LINKS
+            $text-link-color: $link-color;
+            $text-link-hover-color: $link-hover-color;
+
+    // PARTIALS
+        @import "objects/text";
+
+// LAYOUTS
+    // SETTINGS
+        $body-background-color: $color-grayscale-light-12;
+
+    // PARTIALS
+        @import "layouts/site";
+        @import "layouts/clearfix";
+        @import "layouts/devices";
+        @import "layouts/flexbox";
+        @import "layouts/grids";
+        @import "objects/images";
+        @import "objects/videos";
